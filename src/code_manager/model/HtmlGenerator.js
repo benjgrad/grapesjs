@@ -32,6 +32,8 @@ export default class HTMLGenerator extends Model {
       };
     }
 
+    htmlOpts.withProps = opts.withProps;
+
     return model.toHTML(htmlOpts);
   }
 }

@@ -104,6 +104,7 @@ Returns HTML built inside canvas
 
     *   `opts.component` **Component?** Return the HTML of a specific Component
     *   `opts.cleanId` **[Boolean][18]** Remove unnecessary IDs (eg. those created automatically) (optional, default `false`)
+    *   `opts.withProps` **[Boolean][18]** Include component properties as `data-gjs-*` attributes. This allows you to have re-importable HTML. (optional, default `false`)
 
 Returns **[string][16]** HTML string
 
